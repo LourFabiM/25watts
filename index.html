@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>25Watts</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul class="header__nav__ul">
-                <li><img src="assets/image/top-logo.svg" alt="logo 25Watts"></li>
+            <img src="/assets/image/top-logo.svg" alt="logo25Watts">
+            <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#product">Product</a></li>
@@ -20,84 +20,60 @@
             </ul>
         </nav>
     </header>
-    <main>      
-        
+    <main>
         <section id="home">
             <h1>Sed ut perspiciatis unde omnis iste natus</h1>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
-            <button><a href="#">Read more</a></button>
+            <button>Read more</button>
         </section>
-        
         <section id="about">
-            <h2>We Help Businesses</h2>
-            <h2>Grow and Innovate</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
-                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
-                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-            </p>
+            <h2>We Help Businesses Grow and Innovate</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+            <div id="about__div"></div>
         </section>
-
         <section id="product">
-            <div id="product_container">
-                <div id="product_element">
-                    <div id="product_img">
-                        <div id="product_txt">
-                            <div id="h4_product">
-                                <h4 >Sed ut perspiciatis</h4>
-                            </div>
-                            <div id="h2_product">
-                                <h2>Nemo Enim</h2>
-                            </div>
-                            <div id="p_product">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                            </div>
-                            <img src="./assets/image/Icon feather-arrow-left-circle.svg" alt="feather-arrow-left-circle">
-                            <img src="./assets/image/Icon feather-arrow-right-circle.svg" alt="feather-arrow-right-circle">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="service">
-            <div>
-                <p>Sed up perspiciatis</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vitae aliquid saepe temporibus necessitatibus recusandae.</p>
-                <p>Ut enim ad minima veniam</p>
-                <p>Sit amet, consectetur, adipisci</p>           
-
-                <img src="" alt="">
-            </div>
-        </section>
-
-        <section id="contact">
+            <div class="section__div"></div>
             <div>
                 <div>
-                    <h1>Get in touch</h1>
-                    <h1>We are hiring</h1>
-                    <form action="">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Phone">
-                        <textarea type="textarea" placeholder="Mensaje"></textarea>
-                        <input type="submit" name="" id="">
-                    </form>
+                    <p>Sed ut perspiciatis</p>
+                    <h2>Nemo Enim</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <img id="product__img--left" src="./assets/image/Icon feather-arrow-left-circle.svg" alt="feather-arrow-left-circle">
+                    <img id="product__img--rigth" src="./assets/image/Icon feather-arrow-right-circle.svg" alt="feather-arrow-right-circle">
                 </div>
-                <img src="#" alt="">
             </div>
         </section>
+        <section id="service">
+            <button class="acordeon">Sed ut perspiciatis</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <button class="acordeon">Ut enim ad minima veniam</button>
+            <div class="panel">
+                <p></p>
+            </div>
+            <button class="acordeon">Sit amet, consectetur, adipisci</button>
+            <div class="panel">
+                <p></p>
+            </div>
+            <img src="./assets/image/section4-image.png" alt="hombre corriendo">
+        </section>
+        <section id="contact">
+            <h2></h2>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Phone">
+                <textarea type="textarea" placeholder="Message"></textarea>
+                <input type="submit" name="" id="">
+            </form>
+            <div class="section__div"></div>
+            <img src="./assets/image/contact-image.png" alt="globos aerostáticos">
+        </section>
     </main>
-
     <footer>
         <p>2020 All rights reserved</p>
         <img src="#" alt="">
     </footer>
-
 </body>
 </html>

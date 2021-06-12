@@ -1,3 +1,86 @@
 header {
     background-image: url("../image/slider-1.png");
 }
+
+.hea
+
+#product_container {
+    top: 1440px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    background: var(--unnamed-color-f2f4f1) 0% 0% no-repeat padding-box;
+    background: #F2F4F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#product_element {
+    top: 1440px;
+    left: 968px;
+    width: 398px;
+    height: 768px;
+    background: var(--unnamed-color-dce1da) 0% 0% no-repeat padding-box;
+    background: #DCE1DA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#product_img {
+    top: 1552px;
+    left: 200px;
+    width: 966px;
+    height: 552px;
+    background: transparent url("../image/section3-image.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#product_txt {
+    top: 1800px;
+    left: 695px;
+    width: 471px;
+    height: 304px;
+    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#h4_product {
+    top: 1868px;
+    left: 745px;
+    width: 137px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;    
+}
+
+#h2_product {
+    top: 1883px;
+    left: 745px;
+    width: 229px;
+    height: 55px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-39)/59px var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-55);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 39px/59px Poppins;
+    letter-spacing: 0.55px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#p_product {
+    top: 1958px;
+    left: 745px;
+    width: 372px;
+    height: 63px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+}
